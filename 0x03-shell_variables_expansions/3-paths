@@ -1,0 +1,7 @@
+#!/bin/bash
+count=0
+for dir in $PATH; do
+  count=$((count + 1))
+done
+echo "There are $count directories in the PATH."
+
