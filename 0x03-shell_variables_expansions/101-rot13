@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$1" | tr 'a-z' 'n-za-m' | tr 'A-Z' 'N-ZA-M'
+echo "life is hard" | tr 'A-Za-z' 'N-ZA-Mn-za-m'
